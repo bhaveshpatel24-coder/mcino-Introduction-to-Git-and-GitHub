@@ -1,0 +1,13 @@
+Command:
+
+```powershell
+$repo = Join-Path $env:TEMP 'mcino-Introduction-to-Git-and-GitHub'; & 'C:\Program Files\Git\cmd\git.exe' -C $repo branch -r -vv
+```
+
+Terminal output:
+
+```text
+  origin/HEAD         -> origin/main
+  origin/bug-fix-typo 8dec0d9 Fix typo in additional authors comment
+  origin/main         9f012d9 Add pull request verification output
+```
